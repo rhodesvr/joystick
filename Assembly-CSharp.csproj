@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B03238A5-C6B4-0A2D-BF71-E3F26568873F}</ProjectGuid>
+    <ProjectGuid>{7BC8A899-4E9A-71FB-040D-49913D4F5A74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -93,7 +93,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="OSVR.ClientKit">
- <HintPath>C:/Users/vrlab/Desktop/Joystick_Experiment/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
+ <HintPath>C:/Users/rhode/Documents/joystick/Assets/Plugins/OSVR.ClientKit.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

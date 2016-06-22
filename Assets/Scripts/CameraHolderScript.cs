@@ -37,14 +37,14 @@ public class CameraHolderScript : MonoBehaviour {
         float y = mainCamera.transform.eulerAngles.y;
         
         Vector2 moveAmount = locomotion.getMovement(speed);
-        Debug.Log(moveAmount);
+        //Debug.Log(moveAmount);
         Vector3 newMove = new Vector3(
             Mathf.Sin(y * Mathf.Deg2Rad) * moveAmount.x + Mathf.Cos(y * Mathf.Deg2Rad) * moveAmount.y,
             0.0f,
             Mathf.Cos(y * Mathf.Deg2Rad) * moveAmount.x + Mathf.Sin(y * Mathf.Deg2Rad) * -moveAmount.y)
         ;
         rb.transform.Translate(newMove);
-        Debug.Log(rb.velocity);     
+        //Debug.Log(rb.velocity);     
         
     }
 }
