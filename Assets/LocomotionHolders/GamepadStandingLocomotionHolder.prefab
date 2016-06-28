@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 465686}
   - 114: {fileID: 11405874}
   m_Layer: 0
-  m_Name: GamepadLocomotionHolder
+  m_Name: GamepadStandingLocomotionHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,6 +39,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83844e44b949b64db3cdf17e98d3ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joySpeed: 0
+  joy: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

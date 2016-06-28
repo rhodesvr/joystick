@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Profile Configuration Data. 6/22/2016 5:03:51 PM -->
+<!-- Profile Configuration Data. 6/27/2016 9:55:16 AM -->
 
 <Profile>
   <useExclusiveMode>False</useExclusiveMode>
   <startMinimized>False</startMinimized>
-  <formWidth>160</formWidth>
-  <formHeight>28</formHeight>
+  <formWidth>459</formWidth>
+  <formHeight>229</formHeight>
   <Controller1>DS4</Controller1>
   <Controller2>
   </Controller2>
@@ -13,7 +13,7 @@
   </Controller3>
   <Controller4>
   </Controller4>
-  <LastChecked>6/22/2016 11:03:14 AM</LastChecked>
+  <LastChecked>6/27/2016 9:52:14 AM</LastChecked>
   <CheckWhen>1</CheckWhen>
   <Notifications>2</Notifications>
   <DisconnectBTAtStop>True</DisconnectBTAtStop>

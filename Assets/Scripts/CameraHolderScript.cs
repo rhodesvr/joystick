@@ -15,6 +15,8 @@ public class CameraHolderScript : MonoBehaviour {
 
     public const float HEIGHT_TO_STRIDE =  3 * .414f;
 
+    private Vector3 lastPos;
+
     private Vector3 previous;
 
     // Use this for initialization
@@ -33,6 +35,12 @@ public class CameraHolderScript : MonoBehaviour {
     // x is the forward direction
     void LateUpdate()
     {
+
+        ////used to determine meters/sec
+        //float distance = Vector3.Distance(mainCamera.transform.position, lastPos);
+        //lastPos = mainCamera.transform.position;
+        //Debug.Log(distance / Time.deltaTime);
+        
         //Debug.Log(locomotion);
         float y = mainCamera.transform.eulerAngles.y;
         
